@@ -21,5 +21,7 @@ document.getElementById("addfile").innerHTML = JSON.stringify(addfile, undefined
 
 
 var addcopy = {"status": 200, "id": "1rqlz9z", "url": "https://files.cx/id/1rqlz9z", "file_info":{"name": "Detective Conan Movie 01 The Timed Skyscraper.mkv","mimeType": "video/x-matroska","size": 425580531,"owners": "Username","owners_email": "user@email.com"}}
-
 document.getElementById("addcopy").innerHTML = JSON.stringify(addcopy, undefined, 2);
+
+var addcaption = {"status": 200, "embed_url": "https://files.cx/stream/1rqlz9z"}
+document.getElementById("addcaption").innerHTML = JSON.stringify(addcaption, undefined, 2);
